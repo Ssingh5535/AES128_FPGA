@@ -1,6 +1,6 @@
 # AES FPGA Encryption & Decryption on PYNQ Z2
 
-> A complete end-to-end AES-128 encryption/decryption SoC on the Xilinx Zynq-7000, from Verilog RTL through behavioral simulation, C-driver integration, and on-board demonstration using UART, AXI-GPIO (buttons/switches/LEDs), and custom AXI-Lite slave interfaces.
+> A complete end-to-end AES-128 encryption/decryption SoC on the Xilinx Zynq-7020, from Verilog RTL through behavioral simulation, C-driver integration, and on-board demonstration using UART, AXI-GPIO (buttons/switches/LEDs), and custom AXI-Lite slave interfaces.
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 1. Project Overview
 
-This project implements a full AES-128 encryption and decryption subsystem on the Xilinx Zynq-7000 SoC. It covers:
+This project implements a full AES-128 encryption and decryption subsystem on the Xilinx Zynq-7020 SoC. It covers:
 
 - **RTL design** of AES encryption & decryption cores  
 - **AXI-Lite** wrappers for register-based control & data transfer  
@@ -170,7 +170,7 @@ This project implements a full AES-128 encryption and decryption subsystem on th
 
 ### Block Diagram Overview
 
-![Block Diagram](images/Block_Design.png)
+![Block Diagram](Images/Block_Design.png)
 
 - **Processing System** (PS-7) provides AXI master clock/reset.  
 - **SmartConnect** routes 4 custom AXI-Lite slaves:  
