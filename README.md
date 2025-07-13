@@ -201,7 +201,8 @@ This project implements a full AES-128 encryption and decryption subsystem on th
    - LED1 lights when plaintext entered  
    - LED2 lights when key entered  
    - LED0 lights on successful run
-   - 
+
+     
 ---
 
 ## 8. Future Enhancements
